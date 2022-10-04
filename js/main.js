@@ -13,15 +13,16 @@ const companyName = "CLG";
 let greeting = "Hello";
 let morning = true;
  
-console.log(morning);
-console.log(firstPrize);
-console.clear();
+// console.log(morning);
+// console.log(firstPrize);
+// console.clear();
 
 let firstWinner = "Grace";
-// console.log("The winner is " + firstWinner);
+console.log("The winner is " + firstWinner);
 //console.log(`The winner is still ${firstWinner}`);
 
 let announcementWinner = `winner is still ${firstWinner}`;
 
 let result = announcementWinner.toUpperCase();
 console.log(result);
+
