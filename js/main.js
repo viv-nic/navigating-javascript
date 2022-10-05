@@ -1,29 +1,21 @@
-console.log("Hello world");
-
-console.log(7+3);
-
-// function codingBoss() {
-//     alert("yo yo yo!");
-//     document.querySelector('.hand').style.backgroundColor = "hotpink";
-// }
-
-// codingBoss();
-
-// let firstPrize = 299;
-// const companyName = "CLG";
-// let greeting = "Hello";
-// let morning = true;
+// To gather user's name, country, and greet them according to morning or afternoon
+const companyName = "CLG";
+let fullName = "Jude Kemp";
+let country = "Australia";
+let morning = true;
+let greeting = "G'Day!"
  
-// console.log(morning);
-// console.log(firstPrize);
-// console.clear();
 
-// let firstWinner = "Grace";
-// console.log("The winner is " + firstWinner);
-//console.log(`The winner is still ${firstWinner}`);
 
-// let announcementWinner = `winner is still ${firstWinner}`;
+let welcomeNote = `CLG welcomes you, ${fullName}!`;
 
-// let result = announcementWinner.toUpperCase();
-// console.log(result);
+
+let grandWelcome = welcomeNote.toUpperCase();
+
+console.log(grandWelcome);
+
+document.getElementById("welcome").innerHTML = grandWelcome;
+
+
+
 
