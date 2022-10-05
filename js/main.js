@@ -1,5 +1,6 @@
+console.log("Hello world");
 
-// console.log('hi');
+console.log(7+3);
 
 // function codingBoss() {
 //     alert("yo yo yo!");
@@ -8,21 +9,21 @@
 
 // codingBoss();
 
-let firstPrize = 299;
-const companyName = "CLG";
-let greeting = "Hello";
-let morning = true;
+// let firstPrize = 299;
+// const companyName = "CLG";
+// let greeting = "Hello";
+// let morning = true;
  
 // console.log(morning);
 // console.log(firstPrize);
 // console.clear();
 
-let firstWinner = "Grace";
-console.log("The winner is " + firstWinner);
+// let firstWinner = "Grace";
+// console.log("The winner is " + firstWinner);
 //console.log(`The winner is still ${firstWinner}`);
 
-let announcementWinner = `winner is still ${firstWinner}`;
+// let announcementWinner = `winner is still ${firstWinner}`;
 
-let result = announcementWinner.toUpperCase();
-console.log(result);
+// let result = announcementWinner.toUpperCase();
+// console.log(result);
 
